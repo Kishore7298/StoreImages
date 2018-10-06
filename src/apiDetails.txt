@@ -7,3 +7,11 @@ https://api.imgur.com/oauth2/authorize?
 client_id=YOUR_CLIENT_ID&
 response_type=REQUESTED_RESPONSE_TYPE&
 state=APPLICATION_STATE
+
+http://localhost:8080/oauth2/callback#
+access_token=691d668701d0462b55abee010efc8254a28cc0f4
+&expires_in=315360000
+&token_type=bearer
+&refresh_token=c80e1a6789406f4c1c97f0b542d94416d268788b
+&account_username=Kishore7298
+&account_id=95228617
