@@ -16,6 +16,7 @@ const actions = {
     },
     logout: ({ commit }) => {
         commit('setToken',null);
+        window.localStorage.removeItem('access_token');
     }
 };
 const mutations = {
