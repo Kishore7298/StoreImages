@@ -14,6 +14,11 @@ const actions = {
         const response = await api.fetchImages(token);
         console.log(response);
         commit('setImages',response.data.data)
+    },
+    async uploadImages({rootState}, images){
+        const token = rootState.auth.Token;
+        await api.uploadImages(images,token);
+        router.push('/');
     }
 };
 const mutations = {
